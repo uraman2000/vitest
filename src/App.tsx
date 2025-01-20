@@ -1,10 +1,11 @@
-import PatientAddPage from "./component/PatientAddPage";
+import Cats from "./component/Cats";
 import TestForm from "./component/TestForm";
 
 function App() {
   return (
     <div>
-      <TestForm />
+      {/* <TestForm /> */}
+      {<Cats/>}
     </div>
   );
 }

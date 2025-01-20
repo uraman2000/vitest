@@ -6,7 +6,8 @@ export default defineConfig({
   plugins: [react()],
   test: {
     globals: true,  // For using globals like describe, it, expect
-    environment: 'jsdom',  // Choose environment (jsdom for React)
+    inspect: true, // Enables debugging
+    environment: 'happy-dom',  // Choose environment (jsdom for React)
     setupFiles: './vitest.setup.ts',  // Point to the setup file
   },
 })

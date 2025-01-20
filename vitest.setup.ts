@@ -1,5 +1,6 @@
 import { vi } from 'vitest';
 import '@testing-library/jest-dom'; 
+
 // Global mocks or setup
 vi.mock('some-module', () => ({
   someFunction: vi.fn().mockReturnValue('mocked value'),
